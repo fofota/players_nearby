@@ -127,9 +127,9 @@ st.sidebar.header("Filters")
 
 # Minutes played slider
 minutes = st.sidebar.slider(
-    "Minutes played (before 26 November)", 
+    "Minutes played so far this season", 
     min_value=0, 
-    max_value=1800, 
+    max_value=4000, 
     value=(1, 300)  # Default range
 )
 
